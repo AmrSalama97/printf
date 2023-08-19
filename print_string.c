@@ -6,7 +6,6 @@
  *
  * Return: String length.
  */
-
 int print_string(va_list list)
 {
 	char *p;
