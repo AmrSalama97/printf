@@ -1,6 +1,7 @@
 #include "main.h"
 
 int is_lowercase(char);
+
 char *string_to_upper(char *);
 
 /**
@@ -27,6 +28,7 @@ int print_hexadecimal_upp(va_list list)
  * @c: Character
  * Return: 1 or 0
  **/
+
 int is_lowercase(char c)
 {
 	return (c >= 'a' && c <= 'z');
@@ -37,6 +39,7 @@ int is_lowercase(char c)
  * @s: String
  * Return: String uppercase
  **/
+
 char *string_to_upper(char *s)
 {
 	int i;
