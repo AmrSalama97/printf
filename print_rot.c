@@ -5,6 +5,7 @@
  * @s: String to enconde
  * Return: String encode
  */
+
 int rot13(char *s)
 {
 	int i, j;
@@ -35,6 +36,7 @@ int rot13(char *s)
  *
  * Return: Length of the string encoded
  **/
+
 int print_rot(va_list list)
 {
 	char *p;
