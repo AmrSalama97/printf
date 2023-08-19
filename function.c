@@ -42,14 +42,6 @@ int _printf(const char *format, ...)
                 count++;
                 break;
             }
-            case 'd':
-            case 'i':
-            {
-                int n = va_arg(args, int);
-                int num_chars = printf("%d", n);
-                count += num_chars;
-                break;
-            }
         }
     }
 
